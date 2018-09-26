@@ -28,3 +28,8 @@ def assign_rooms(speakers)
   end
   speaker_rooms
 end
+
+def printer
+  print batch_badge_creator
+  print assign_rooms
+end
