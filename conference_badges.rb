@@ -26,4 +26,5 @@ def assign_rooms(speakers)
     speaker_rooms << assignment_message
     i += 1
   end
+  speaker_rooms
 end
