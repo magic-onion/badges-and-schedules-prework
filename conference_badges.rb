@@ -11,7 +11,7 @@ def batch_badge_creator(array_of_names)
   name = array_of_names[i]
   welcome_message = "Hello, my name is #{name}."
   
-    array_of_badge_messages.unshift(welcome_message)
+    array_of_badge_messages << welcome_message
     i += 1 
   end
   array_of_badge_messages
