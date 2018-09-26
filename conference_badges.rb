@@ -9,7 +9,7 @@ def batch_badge_creator(array_of_names)
   i = 0
   name = array_of_names[i]
   welcome_message = "Hello, my name is #{name}."
-  while i < 0
+  while i < array_of_names.length
     array_of_badge_messages.unshift(name)
     i += 1 
   end
