@@ -30,10 +30,10 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-badges = batch_badge_creator(array_of_names)
+badges = batch_badge_creator(attendees)
 badges.each {|x| puts x}
   end
-assignment_thing = assign_rooms(speakers)
+assignment_thing = assign_rooms(attendees)
 assignment_thing.each {|x| puts x}
   end
 end
