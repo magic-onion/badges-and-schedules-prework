@@ -29,7 +29,7 @@ def assign_rooms(speakers)
   speaker_rooms
 end
 
-def printer(attendees)
+def printer
   i = 0 
   while i < speaker_rooms.length
     puts speaker_rooms[i]
