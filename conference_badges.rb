@@ -1,7 +1,7 @@
 # Write your code here.
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def batch_badge_creator(speakers)
+def badge_maker(speakers)
   while i<0
     welcomes = []
     welcomes.unshift("Hello, my name is" + speakers[i] + ".")
