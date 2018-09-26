@@ -30,15 +30,12 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  batch_badge_creator
-  while i < array_of_badge_messages.length
-    puts array_of_badge_messages[i]
-    i += 1 
+badges = batch_badge_creator(array_of_names)
+badges.each do {|x| puts x}
   end
-  assign_rooms
-  i = 0 
-  while i < speaker_rooms.length
-    puts speaker_rooms[i]
-    i += 1 
+assignment_thing = assign_rooms(speakers)
+assignment_thing.so {|x| puts x}
   end
 end
+}
+  
