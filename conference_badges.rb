@@ -13,4 +13,5 @@ def batch_badge_creator(array_of_names)
     array_of_badge_messages.unshift(name)
     i += 1 
   end
+  array_of_badge_messages
 end
