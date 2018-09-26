@@ -29,12 +29,14 @@ def assign_rooms(speakers)
   speaker_rooms
 end
 
-def printer
+def printer(attendees)
+  assign_rooms
   i = 0 
   while i < speaker_rooms.length
     puts speaker_rooms[i]
     i += 1 
   end
+  batch_badge_creator
   while i < array_of_badge_messages.length
     puts array_of_badge_messages[i]
     i += 1 
