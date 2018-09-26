@@ -37,5 +37,4 @@ assignment_thing = assign_rooms(speakers)
 assignment_thing.each {|x| puts x}
   end
 end
-}
   
